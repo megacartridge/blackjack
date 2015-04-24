@@ -7,7 +7,7 @@ else
    puts "Draw again? (y/n)"
    input = gets.chomp
    if input == 'y'
-     i = i+ Random.rand(11)
+     i = i+ (Random.rand(10) + 1)
      puts i
    elsif input == 'n'
    puts "Your score is..."
